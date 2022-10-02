@@ -1,7 +1,7 @@
 import Home from '~/pages/Home';
 import Following from '~/pages/Following';
-import Upload from '~/Layouts/DefaultLayout/Upload';
-import HeaderOnly from '~/Layouts/HeaderOnly';
+import Upload from '~/components/Layouts';
+import HeaderOnly from '~/components/Layouts';
 
 const publicRoutes = [
     { path: '/', component: Home },
