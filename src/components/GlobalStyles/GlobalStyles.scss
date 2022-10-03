@@ -32,7 +32,7 @@ input {
     border: none;
 }
 //thẻ a có thuộc tính href
-a [href] {
+a {
     color: var(--text-color);
     text-decoration: none;
 }

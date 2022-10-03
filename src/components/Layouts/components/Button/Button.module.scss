@@ -1,0 +1,51 @@
+.wrapper {
+    font-size: 1.4rem;
+    font-weight: 800;
+    background-color: none;
+    min-width: 100px;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    + .wrapper {
+        margin-left: 12px;
+    }
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+        user-select: none;
+    }
+}
+
+//Button types
+.primary {
+    background-color: var(--primary);
+    color: white;
+    &:hover {
+        background: #f11c46;
+        cursor: pointer;
+    }
+}
+.hollow {
+    border-color: var(--primary);
+    color: var(--primary);
+    &:hover {
+        cursor: pointer;
+    }
+}
+.text {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+//Button sizes
+
+.small {
+    min-width: 100px;
+    padding: 8px 16px;
+}
+.large {
+    min-width: 132px;
+    padding: 16px 16px;
+}
+
+//
